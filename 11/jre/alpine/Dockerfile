@@ -21,7 +21,7 @@ FROM alpine:3.12.3
 LABEL maintainer="sombochea@cubetiqs.com"
 
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
-ENV TIMEZ = 'Asia/Phnom_Penh'
+ENV TIMEZ=Asia/Phnom_Penh
 
 RUN echo "Starting setting up timezone to ${TIMEZ}..."
 # For Alpine
