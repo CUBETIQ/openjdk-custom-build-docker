@@ -1,0 +1,5 @@
+os: alpine 3.12.3
+openjdk11: jdk11u
+author: sombochea
+company: cubetiq solution
+build: 20/12/2020
