@@ -11,4 +11,8 @@ docker build . -t ${IMAGE}
 echo "Start pushing the image: ${IMAGE}"
 docker push ${IMAGE}
 
+docker tag ${IMAGE} cubetiq/${IMAGE_NAME}:$TAG
+
+docker push cubetiq/${IMAGE_NAME}:$TAG
+
 echo "Build successfully!"

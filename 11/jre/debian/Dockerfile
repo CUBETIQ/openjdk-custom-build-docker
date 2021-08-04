@@ -13,6 +13,8 @@ RUN apt-get update \
     && locale-gen en_US.UTF-8 \
     && rm -rf /var/lib/apt/lists/*
 
+RUN ln -sf /usr/share/zoneinfo/Asia/Phnom_Penh /etc/localtime
+
 ENV JAVA_VERSION jdk-11.0.11+9
 
 RUN set -eux; \
