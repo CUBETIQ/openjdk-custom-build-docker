@@ -14,6 +14,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Phnom_Penh /etc/localtime
+RUN echo "Asia/Phnom_Penh" /etc/timezone
 
 ENV JAVA_VERSION jdk-11.0.11+9
 
