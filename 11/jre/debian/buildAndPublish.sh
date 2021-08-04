@@ -2,7 +2,7 @@
 
 REGISTRY=registry.kh.cubetiqs.com
 IMAGE_NAME=openjdk
-TAG=jre-11u-alpine
+TAG=jre-11u-debian
 IMAGE=${REGISTRY}/${IMAGE_NAME}:${TAG}
 
 echo "Start building the image: ${IMAGE}"

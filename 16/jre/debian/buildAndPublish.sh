@@ -1,8 +1,8 @@
 #!/bin/bash
 
 REGISTRY=registry.kh.cubetiqs.com
-IMAGE_NAME=openjdk
-TAG=jre-11u-alpine
+IMAGE_NAME=openjdk11
+TAG=jre-16u-debian
 IMAGE=${REGISTRY}/${IMAGE_NAME}:${TAG}
 
 echo "Start building the image: ${IMAGE}"
