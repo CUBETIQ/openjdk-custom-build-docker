@@ -1,5 +1,5 @@
 os: debian-bluster-slim
-openjdk11: jdk11u
+openjdk11: jre-11u-debian
 author: sombochea
 company: cubetiq solution
 build: 20/12/2020
