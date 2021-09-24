@@ -1,0 +1,5 @@
+os: debian-bluster
+openjdk11: 11u-debian
+author: sombochea
+company: cubetiq solution
+build: 24/09/2021
