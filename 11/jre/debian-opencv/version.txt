@@ -1,0 +1,6 @@
+os: debian-bluster-slim
+openjdk11: jdk11u
+opencv: opencv-python
+author: sombochea
+company: cubetiq solution
+build: 20/12/2020
