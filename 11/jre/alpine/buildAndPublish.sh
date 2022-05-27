@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REGISTRY=registry.kh.cubetiqs.com
+REGISTRY=registry.ctdn.net
 IMAGE_NAME=openjdk
 TAG=jre-11u-alpine
 IMAGE=${REGISTRY}/${IMAGE_NAME}:${TAG}

@@ -1,0 +1,5 @@
+os: ubuntu-20.04
+openjdk11: 11u-ubuntu
+author: sombochea
+company: cubetiq solution
+build: 24/09/2021
